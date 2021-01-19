@@ -12,5 +12,5 @@ def count_digits(number):
     count=0
     while number:
         count+=1
-        number=number/10
+        number=number//10
     return count
